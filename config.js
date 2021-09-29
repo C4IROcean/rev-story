@@ -45,7 +45,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Who is going?',
-            image: 'https://cdn.glitch.com/56896d97-eb12-4ff2-9eef-5eed80fdd2f3%2Fteamondeck2.jpg?v=1632935363449',
+            image: './images/teamondeck2.jpg',
             description: '',
             location: {
                 center: { lon: -5.18003, lat: 80.72944 },
@@ -99,7 +99,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'ROV onboarding + mobilization',
-            image: 'https://cdn.glitch.com/56896d97-eb12-4ff2-9eef-5eed80fdd2f3%2F_E5C5504.JPG?v=1632517336532',
+            image: './images/_E5C5504.JPG',
             description: '',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
