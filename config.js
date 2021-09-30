@@ -99,7 +99,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'ROV onboarding + mobilization',
-            image: './images/_E5C5504.JPG',
+            image: './images/ROVonland.jpg',
             description: 'Now the crew is getting the ROV ready for its first expedition.',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
