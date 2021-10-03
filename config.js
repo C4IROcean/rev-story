@@ -266,8 +266,8 @@ var config = {
             image: './images/oct2arrival.jpg',
             description: 'The team wakes up moving North towards the ice, 150 nautical miles from Moll&#248;y Deep. Around 10:55 we cross the Greenland border. The depth markers on the charts fade, suggesting the ocean is less surveyed where we are headed. We arrive around 13:15 as the first ice drifts into view. A perimeter of 2 nautical miles is the last visible open water.<br><br>The ROV Team rigs up Aurora and Borealis to take their second deep dive on the edge of the ice at 15:00. Aurora hits seabed 1700 meters deep at 16:00 and takes its first sample at 16:12. They are back on deck by 17:30 and in a short two hours the ice has drifted to us.<br><br>The team hears and feels the first ice during our science meeting in the auditorium and people are quick to run to the observation deck 9 or outdoors onto the helicopter deck 6.<br><br>Eva Ramirez-Llorda starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>96 nautical miles to Aurora.',
             location: {
-                center: { lon: 2.77927, lat: 80.53859 },
-                zoom: 4.35,
+                center: { lon: 3.97316, lat: 82.00867 },
+                zoom: 4.15,
                 pitch: 24.00,
                 bearing: 0.01
             },
