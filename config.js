@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/oceandatafoundation/cku5gar6i283z18l6xsl9yge2',
+    style: 'mapbox://styles/oceandatafoundation/cku5gar6i283z18l6xsl9yge2?fresh=true',
     accessToken: 'pk.eyJ1Ijoib2NlYW5kYXRhZm91bmRhdGlvbiIsImEiOiJja3U1Z2Ezem80endhMm9tcHowZ2JqMGpiIn0.HHbtd4QIaBqfTzcZncxDYA',
     showMarkers: false,
     markerColor: '#3FB1CE',
