@@ -27,11 +27,18 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                layer: 'start-point',
+                opacity: 0
+              },
+                {
+                layer: 'test-shallow',
+                opacity: 0
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
+              }
             ],
             onChapterExit: [
                 // {
@@ -57,11 +64,18 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                layer: 'start-point',
+                opacity: 0
+              },
+                {
+                layer: 'test-shallow',
+                opacity: 0
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
+              }
             ],
             onChapterExit: [
                 // {
@@ -87,11 +101,18 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
+                {
+                layer: 'start-point',
+                opacity: 0
+              },
+                {
+                layer: 'test-shallow',
+                opacity: 0
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
+              }
             ],
             onChapterExit: [
                 // {
@@ -120,6 +141,14 @@ var config = {
               {
                 layer: 'start-point',
                 opacity: 1
+              },
+                {
+                layer: 'test-shallow',
+                opacity: 0
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -140,7 +169,16 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+            {
+                layer: 'test-shallow',
+                opacity: 0
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
+              }
+            ],
             onChapterExit: []
         },
         {
@@ -159,7 +197,17 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+            {
+                layer: 'test-shallow',
+                opacity: 1
+              },
+                {
+                layer: 'test-deep',
+                opacity: 0
+              }
+                
+            ],
             onChapterExit: []
         },
         {
@@ -178,7 +226,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+            {
+                layer: 'sailing-half',
+                opacity: 1
+              }
+            ],
             onChapterExit: []
         },
         {
@@ -197,7 +250,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                layer: 'test-deep',
+                opacity: 1
+              }
+            ],
             onChapterExit: []
         },
         {
