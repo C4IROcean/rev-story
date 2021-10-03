@@ -130,7 +130,7 @@ var config = {
             hidden: false,
             title: 'Tuesday, Sept 28: Onboarding and Mobilization',
             image: './images/ROVonland.jpg',
-            description: 'Everyone starts to check-in and unpack their gear onboard Kronprins Haakon. We finally installed the new ROV. The main rig weighs 4,500 kilograms and carries an additional 6km of cables (adding 18,000 kilograms).',
+            description: 'Everyone starts to check-in and unpack their gear onboard Kronprins Haakon. We finally installed the new ROV. The main rig weighs 4,500 kilograms and carries an additional 6km of cables (adding 18,000 kilograms).<br><br><a href="https://www.instagram.com/p/CUaBlTXKWVC/" target="_blank">Watch video on our Instagram.</a>',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
                 zoom: 6.65,
