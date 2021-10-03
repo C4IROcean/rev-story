@@ -38,6 +38,10 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
+              },
+                {
+                layer: 'start',
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -74,6 +78,10 @@ var config = {
               },
                 {
                 layer: 'test-deep',
+                opacity: 0
+              },
+                {
+                layer: 'start',
                 opacity: 0
               }
             ],
@@ -112,6 +120,10 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
+              },
+                {
+                layer: 'start',
+                opacity: 0
               }
             ],
             onChapterExit: [
@@ -149,6 +161,14 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
+              },
+                {
+                layer: 'start',
+                opacity: 0
+              },
+                {
+                layer: 'sailing-half',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -176,6 +196,14 @@ var config = {
               },
                 {
                 layer: 'test-deep',
+                opacity: 0
+              },
+                {
+                layer: 'start',
+                opacity: 0
+              },
+                {
+                layer: 'sailing-half',
                 opacity: 0
               }
             ],
@@ -209,6 +237,10 @@ var config = {
                 {
                 layer: 'start',
                 opacity: 1
+              },
+                {
+                layer: 'sailing-half',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -257,6 +289,10 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 1
+              },
+                {
+                layer: 'sailing',
+                opacity: 0
               }
             ],
             onChapterExit: []
