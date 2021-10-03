@@ -76,7 +76,7 @@ var config = {
             hidden: false,
             title: 'Friday, Sept 24: Meet the ROV Team',
             image: './images/story_3.jpg',
-            description: 'The team arrived on Friday, September 24th to start preparing the Remotely Operated Vehicle (ROV) and Tethered Management System (TMS) for its first expedition. Oil checks, cables connected, science skid and 4K camera installed.<br><br>(Image below, from left) Patrick V&#229;genes, J&#246;rn Patrick from Havforskningsinstituttet, Stig V&#229;genes from University of Bergen, Leighton Rolley from REV Ocean.',
+            description: 'The team arrived on Friday, September 24th to start preparing the Remotely Operated Vehicle (ROV) and Tethered Management System (TMS) for its first expedition. Oil checks, cables connected, science skid and 4K camera installed.<br><br>(Image, from left) Patrick V&#229;genes, J&#246;rn Patrick from Havforskningsinstituttet, Stig V&#229;genes from University of Bergen, Leighton Rolley from REV Ocean.',
             location: {
                 center: { lon: -5.18003, lat: 80.72944 },
                 zoom: 3.53,
