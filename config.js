@@ -75,7 +75,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Friday, Sept 24: Meet the ROV Team',
-            image: '',
+            image: './images/story_3.jpg',
             description: 'The team arrived on Friday, September 24th to start preparing the Remotely Operated Vehicle (ROV) and Tethered Management System (TMS) for its first expedition. Oil checks, cables connected, science skid and 4K camera installed.<br><br>(Image below, from left) Patrick V&#229;genes, J&#246;rn Patrick from Havforskningsinstituttet, Stig V&#229;genes from University of Bergen, Leighton Rolley from REV Ocean.',
             location: {
                 center: { lon: -5.18003, lat: 80.72944 },
@@ -148,7 +148,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Wednesday, Sept 29: Meet Aurora and Borealis',
-            image: '',
+            image: './images/baptism_photo.jpg',
             description: 'After one year of intense production work from Kystdesign and the REV Ocean operations team, the ROV is connected onboard and springs to life. There was tremendous excitement amongst the scientists, who all showed up with cameras and phones for the ROV naming ceremony. Using an ROV can be a once in a lifetime opportunity for many researchers at sea. The ROV Titan arm delicately picked up a bottle of Svalbard Prosecco and elegantly sliced the cork into the air with cheers and whistling all around!<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/JJA9z0ghsBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>The REV Ocean ROV has appropriately been named Aurora, and the corresponding TMS Borealis. Next up is a shallow water test to make sure all the basic systems are working properly.<br><br>19:30 We start with two shallow dives at a couple of hundred meters depth in Isfjorden, off the coast of Svalbard, finishing around 21:38. A few technical calibrations to work through the following day still keeps us close to Longyearbyen.',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
@@ -205,7 +205,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Saturday, Oct 2: We Reach the Ice',
-            image: '',
+            image: './images/oct2arrival.jpg',
             description: 'The team wakes up moving North towards the ice, 150 nautical miles from Moll&#248;y Deep. Around 10:55 we cross the Greenland border. The depth markers on the charts fade, suggesting the ocean is less surveyed where we are headed. We arrive around 13:15 as the first ice drifts into view. A perimeter of 2 nautical miles is the last visible open water.<br><br>The ROV Team rigs up Aurora and Borealis to take their second deep dive on the edge of the ice at 15:00. Aurora hits seabed 1700 meters deep at 16:00 and takes its first sample at 16:12. They are back on deck by 17:30 and in a short two hours the ice has drifted to us.<br><br>The team hears and feels the first ice during our science meeting in the auditorium and people are quick to run to the observation deck 9 or outdoors onto the helicopter deck 6.<br><br>Eva Ramirez-Llorda starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>96 nautical miles to Aurora.',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
