@@ -205,8 +205,11 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
+              },
+                {
+                layer: 'start',
+                opacity: 1
               }
-                
             ],
             onChapterExit: []
         },
