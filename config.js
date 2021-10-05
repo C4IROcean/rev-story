@@ -246,11 +246,11 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'story7',
+            id: 'story7a',
             alignment: 'left',
             hidden: false,
             title: 'Thursday, Sept 30: Setting Sail towards Molloy Deep',
-            image: '',
+            image: './images/Molloy3D.JPG',
             description: '&#34;Aurora will descend into the Moll&#248;y Deep and be diving at approximately 3500 meters,&#34; Stefan B&#252;nz, cruise lead, informs the team the night before the test dive in Isfjorden.',
             location: {
                 center: { lon: 3.14897, lat: 79.23795 },
@@ -274,8 +274,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Friday, Oct 1: Aurora and Borealis take their first Deep Dive',
-            image: '',
-            description: 'We reached our destination at 07:30, a few hours earlier than expected. The CTD was deployed first, taking our first samples for the cruise.<br><br>Around 11:22 the ROV started its first deep dive, the HACON team takes bets on the expected depth for touchdown ranging from 3507 to 3690. At 13:50 it hits the seabed, and the ROV team start calibrating the umbilical by unravelling the full 800 meters of TMS supporting cable. During this momentous dive, it exceeded all expectations reaching more than 3800 meters.<br><br>To our great delight, we were also entertained with a very brief view of a Cirroteuthis Muelleri (Dumbo Octopus)!',
+            image: './images/octopus.png',
+            description: 'We reached our destination at 07:30, a few hours earlier than expected. The CTD was deployed first, taking our first samples for the cruise.<br><br>Around 11:22 the ROV started its first deep dive, the HACON team takes bets on the expected depth for touchdown ranging from 3507 to 3690. At 13:50 it hits the seabed, and the ROV team start calibrating the umbilical by unravelling the full 800 meters of TMS supporting cable. During this momentous dive, it exceeded all expectations reaching more than 3800 meters.<br><br>The highlight of the dive was seeing a cirrate octopus!',
             location: {
                 center: { lon: 2.72746, lat: 79.63265 },
                 zoom: 5.35,
@@ -298,12 +298,60 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'story9',
+            id: 'story9a',
+            alignment: 'left',
+            hidden: false,
+            title: 'Saturday, Oct 2: We Reach the Ice',
+            image: './images/greenland-border.jpg',
+            description: 'The team wakes up moving North towards the ice, 150 nautical miles from Moll&#248;y Deep. Around 10:55 we cross the Greenland border. The depth markers on the charts fade, suggesting the ocean is less surveyed where we are headed.',
+            location: {
+                center: { lon: 4.13119, lat: 82.44665 },
+                zoom: 4.15,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story9b',
+            alignment: 'left',
+            hidden: false,
+            title: 'Saturday, Oct 2: We Reach the Ice',
+            image: './images/reaching_ice.jpg',
+            description: 'We arrive around 13:15 as the first ice drifts into view. A perimeter of 2 nautical miles is the last visible open water.<br><br>The ROV Team rigs up Aurora and Borealis to take their second deep dive on the edge of the ice at 15:00. Aurora hits seabed 1700 meters deep at 16:00 and takes its first sample at 16:12. They are back on deck by 17:30 and in a short two hours the ice has drifted to us.',
+            location: {
+                center: { lon: 4.13119, lat: 82.44665 },
+                zoom: 4.15,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story9c',
             alignment: 'left',
             hidden: false,
             title: 'Saturday, Oct 2: We Reach the Ice',
             image: './images/oct2arrival.jpg',
-            description: 'The team wakes up moving North towards the ice, 150 nautical miles from Moll&#248;y Deep. Around 10:55 we cross the Greenland border. The depth markers on the charts fade, suggesting the ocean is less surveyed where we are headed. We arrive around 13:15 as the first ice drifts into view. A perimeter of 2 nautical miles is the last visible open water.<br><br>The ROV Team rigs up Aurora and Borealis to take their second deep dive on the edge of the ice at 15:00. Aurora hits seabed 1700 meters deep at 16:00 and takes its first sample at 16:12. They are back on deck by 17:30 and in a short two hours the ice has drifted to us.<br><br>The team hears and feels the first ice during our science meeting in the auditorium and people are quick to run to the observation deck 9 or outdoors onto the helicopter deck 6.<br><br>Eva Ramirez-Llorda starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>96 nautical miles to Aurora.',
+            description: 'The team hears and feels the first ice during our science meeting in the auditorium and people are quick to run to the observation deck 9 or outdoors onto the helicopter deck 6.<br><br>Eva Ramirez-Llorda starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>96 nautical miles to Aurora.',
             location: {
                 center: { lon: 4.13119, lat: 82.44665 },
                 zoom: 4.15,
