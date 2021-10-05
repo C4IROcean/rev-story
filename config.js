@@ -305,8 +305,8 @@ var config = {
             image: './images/greenland-border.jpg',
             description: 'The team wakes up for 07:30 breakfast and can see the ship is heading further North on the onboard tv screens. We are already 150 nautical miles from the Molloy Deep. Around 10:55 we cross over into Greenland territorial waters. The depth markers on the bathymetry charts start to become less detailed, suggesting the ocean is less surveyed in the area we´re headed. We arrive around 13:15 as the first very large ice flows start to drift into view. A perimeter of 2 nautical miles is the last visible open water.',
             location: {
-                center: { lon: 4.13119, lat: 82.44665 },
-                zoom: 4.15,
+                center: { lon: 4.13119, lat: 81.44665 },
+                zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -329,8 +329,8 @@ var config = {
             image: './images/reaching_ice.jpg',
             description: 'At 15:00 the ROV Team prepares Aurora and Borealis to make the second deep dive on the edge of the ice. The ROV hits the seabed at 1700 meters at 16:00 and takes its first sample at 16:12. They team brings the rig back on deck by 17:30 and in a short two hours the ice has drifted almost completely all around us.',
             location: {
-                center: { lon: 4.13119, lat: 82.44665 },
-                zoom: 4.15,
+                center: { lon: 4.13119, lat: 81.44665 },
+                zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -353,12 +353,12 @@ var config = {
             image: './images/oct2arrival.jpg',
             description: 'During our daily 18:30 science briefing we can hear the increasingly loud scraping and crunching sounds of bigger and bigger chunks of ice throughout the auditorium and lower decks. Our curiosity to see the expanse of frozen water draws people up to the observation lounge on deck 9 or outside and onto the front helicopter pad on deck 6.<br><br>Cruise co-lead, Eva Ramirez-Llorda, starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>We are now 96 nautical miles to the Aurora vent field.',
             location: {
-                center: { lon: 4.13119, lat: 82.44665 },
-                zoom: 4.15,
+                center: { lon: 4.13119, lat: 81.84665 },
+                zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
@@ -378,11 +378,11 @@ var config = {
             description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.<br><br>Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
             location: {
                 center: { lon: 5.32937, lat: 82.60040 },
-                zoom: 4.7,
+                zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [
@@ -402,17 +402,21 @@ var config = {
             description: 'We managed to travel about 10 nautical miles closer to the Aurora vents overnight. At breakfast only 24 nautical miles remained.<br><br>It is becoming comically normal to ignore the aggressive sound of the one-meter-thick ice being scrapped against the side of the steel ship and crushed underneath 9000 tons. Normal seafarer instinct to such a thunderous bow banging would be to evacuate ship. These reactions have subdued as we casually eat breakfast with a destruction soundtrack in the background and shout through meetings and presentations competing with the ice breaker.<br><br>We had our first polar bear sighting this morning. Everyone gathered on the bridge, sharing binoculars to catch a glimpse of the arctic´s top predator, less than a kilometer away.<br><br>&#34;Polar bear on port side&#34; an announcement from the bridge came at 19:30 as the ship slowed to a stop. Everyone suited up to go outdoors in -16 C to get a closer look at a Polar bear and her cub. The pair came within meters of the ship and were extremely curious.',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 4.7,
+                zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
             },
-            mapAnimation: 'flyTo',
+            mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
             {
                 layer: 'sailing',
                 opacity: 1
+              },
+                {
+                layer: 'aurora',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -431,11 +435,11 @@ var config = {
                 bearing: 0.01
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
             {
-                layer: 'sailing',
+                layer: 'aurora',
                 opacity: 1
               }
             ],
