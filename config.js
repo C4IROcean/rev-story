@@ -369,6 +369,78 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'story10',
+            alignment: 'left',
+            hidden: false,
+            title: 'Navigating Through Ice',
+            image: '',
+            description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.<br><br>Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
+            location: {
+                center: { lon: 5.32937, lat: 82.60040 },
+                zoom: 4.7,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story11a',
+            alignment: 'left',
+            hidden: false,
+            title: 'Monday, Oct 4: First Polar Bear Sighting',
+            image: '',
+            description: 'We managed to travel about 10 nautical miles closer to the Aurora vents overnight. At breakfast only 24 nautical miles remained.<br><br>It is becoming comically normal to ignore the aggressive sound of the one-meter-thick ice being scrapped against the side of the steel ship and crushed underneath 9000 tons. Normal seafarer instinct to such a thunderous bow banging would be to evacuate ship. These reactions have subdued as we casually eat breakfast with a destruction soundtrack in the background and shout through meetings and presentations competing with the ice breaker.<br><br>We had our first polar bear sighting this morning. Everyone gathered on the bridge, sharing binoculars to catch a glimpse of the arctic´s top predator, less than a kilometer away.<br><br>&#34;Polar bear on port side&#34; an announcement from the bridge came at 19:30 as the ship slowed to a stop. Everyone suited up to go outdoors in -16 C to get a closer look at a Polar bear and her cub. The pair came within meters of the ship and were extremely curious.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 4.7,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story11b',
+            alignment: 'left',
+            hidden: false,
+            title: 'The Aurora Vent Field',
+            image: '',
+            description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north slightly based on a 0.3 nautical mile ice drift south. The ROV will deploy to the seabed going ahead of the ship in search for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 4.7,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
       {
             id: 'full-route-close',
             alignment: 'left',
