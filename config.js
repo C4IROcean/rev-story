@@ -427,7 +427,55 @@ var config = {
             hidden: false,
             title: 'The Aurora Vent Field',
             image: './images/aurora3D.jpg',
-            description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north slightly based on a 0.3 nautical mile ice drift south. The ROV will deploy to the seabed going ahead of the ship in search for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
+            description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north and drift south on the ice (ice floe speed currently around 0.3 knots). The ROV will deploy to the seabed going ahead of the ship in search for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'aurora',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story12a',
+            alignment: 'left',
+            hidden: false,
+            title: 'Tuesday, Oct 5: The first ROV dive under ice in the Arctic',
+            image: './images/Biology_Sampling_1.jpg',
+            description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later we reach the Aurora Vents and get our first looks at the gorgeous black chimney. We manage to take a small sample of chimney before we must ascend around 9:12. Chemists get the first samples, rushing them to the freezer. Next come the biologists searching for microscopic fauna. Lastly the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'aurora',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story12b',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: './images/Carving_Ice.jpg',
+            description: 'Diving to depths of nearly 4km in -1C is challenging and the oil from the ROV has been having a difficult time with the cold temperature, making the hydraulics slower. Outside of the Arctic deep sea water temperatures range from 2-4C, highlighting the risk involved with this particular deep sea expedition. The ROV team is quick to find a solution. The ship repositions North of the vent fields, and we prepare for our second dive of the day at 16:00.',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
                 zoom: 6,
