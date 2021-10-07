@@ -450,8 +450,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Tuesday, Oct 5: The first ROV dive under ice in the Arctic',
-            image: './images/Biology_Sampling_1.jpg',
-            description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later we reach the Aurora Vents and get our first looks at the gorgeous black chimney. We manage to take a small sample of chimney before we must ascend around 9:12. Chemists get the first samples, rushing them to the freezer. Next come the biologists searching for microscopic fauna. Lastly the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
+            image: './images/ROV_Oct5.jpg',
+            description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later we reach the Aurora Vents and get our first looks at the gorgeous black chimney. We manage to take a small sample of chimney before we must ascend around 9:12.',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
                 zoom: 6,
@@ -471,6 +471,30 @@ var config = {
         },
         {
             id: 'story12b',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: './images/Biology_Sampling_1.jpg',
+            description: 'Chemists get the first samples, rushing them to the freezer. Next come the biologists searching for microscopic fauna. Lastly the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'aurora',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story12c',
             alignment: 'left',
             hidden: false,
             title: '',
