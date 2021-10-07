@@ -370,12 +370,36 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'story10',
+            id: 'story10a',
             alignment: 'left',
             hidden: false,
             title: 'Navigating Through Ice',
             image: './images/ice_nav.jpg',
-            description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.<br><br>Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
+            description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.',
+            location: {
+                center: { lon: 5.32937, lat: 82.60040 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'sailing',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story10b',
+            alignment: 'left',
+            hidden: false,
+            title: 'Navigating Through Ice',
+            image: './images/deck_exercise.jpg',
+            description: 'Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
             location: {
                 center: { lon: 5.32937, lat: 82.60040 },
                 zoom: 6,
