@@ -397,7 +397,7 @@ var config = {
             id: 'story10b',
             alignment: 'left',
             hidden: false,
-            title: 'Navigating Through Ice',
+            title: '',
             image: './images/deck_exercise.jpg',
             description: 'Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
             location: {
@@ -524,6 +524,30 @@ var config = {
             title: '',
             image: './images/Carving_Ice.jpg',
             description: 'Diving to depths of nearly 4km in -1C is challenging and the oil from the ROV has been having a difficult time with the cold temperature, making the hydraulics slower. Outside of the Arctic deep sea water temperatures range from 2-4C, highlighting the risk involved with this particular deep sea expedition. The ROV team is quick to find a solution. The ship repositions North of the vent fields, and we prepare for our second dive of the day at 16:00.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'aurora',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story13',
+            alignment: 'left',
+            hidden: false,
+            title: 'Thursday, Oct 7: Shades of Mud',
+            image: './images/shades_of_mud.jpg',
+            description: 'The colour of mud can be surprisingly exciting, if you ask the right person. The Hacon 2021 expedition collected the first mud samples today and subsequently geologists aboard were particularly happy. Different spots in the ocean have different mud characteristics, including colour and consistency, which hint toward the processes in the area forming and depositing the mud. For example, many round quartz grains can indicate that the particles composing the mud have come a long way. Many settings have (subjectively) quite boring grey-ish mud so the orange-gold mud with black streaks we sampled from the seafloor around the Aurora vent field today elicited some serious excitement. Minerals transported from deep in the crust to the seafloor by hydrothermal circulation are clearly influencing the colours of our Aurora-mud. Understanding the mud at the Aurora vent field, including the exact cause for the colour and consistency will help us understand the history of venting at the site and also will help us understand the connection between the vents and fauna living nearby.',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
                 zoom: 6,
