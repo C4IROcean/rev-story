@@ -565,6 +565,30 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'story14',
+            alignment: 'left',
+            hidden: false,
+            title: 'Friday, Oct 8: Polluted with Life',
+            image: './images/Biology_Sampling_2.jpg',
+            description: '&#34;Polluted with life&#34; the geologists claim as they look at the vents full of shrimp-like creatures and little snails. These incredible species thrive in ambient sea water next to vents with temperatures as high as 400 degrees Celsius, 4km deep under permanent Arctic ice.<br><br>After travelling across a stunning landscape of deep-sea sponges, we approach the active Aurora Vent Field. Fluids, resembling black smoke, rise from the earth’s crust in a forest of chimneys. Our objective on this dive is to retrieve animal samples. Once ROV Aurora is in position, the pilots use a suction sampler (read: hoover), to snatch those little beasties into a chamber at the back of the ROV. We sample over a thousand animals (less than two centimetres big) from three different active vents.  These samples will tell us who eats who in the vent field. How do these animals reproduce? Do they have ancestors from other vent fields?<br><br>Biologists will focus on understanding if these animal communities are unique from those found on the Arctic Mid-Ocean Ridge system, up to 1000 kilometres away, or other sites around the world. What geological events in the past might have allowed them to develop independently on the Aurora Vent Field below ice? These animals have the potential to reshape our knowledge on the biodiversity of vents.<br><br>As it now stands, ice is no longer the limit for deep-sea researchers.',
+            location: {
+                center: { lon: 3.92794, lat: 82.92023 },
+                zoom: 6,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'aurora',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
       {
             id: 'full-route-close',
             alignment: 'left',
