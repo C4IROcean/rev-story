@@ -701,8 +701,8 @@ var config = {
             image: './images/Ice_planets.jpg',
             description: 'As ROV AURORA&#39;s lights illuminated the previously unseen black smokers the team was faced with a challenge. What should we name them? Naming is an important process in scientific discovery for researchers to reference and differentiate locations on the explored site in their peer-reviewed papers.<br><br> Various themes were discussed, from arctic animals, to exploration vessels, to historical explorers.<br><br>We wanted the names to represent the magnitude of our work at Aurora. Assistance came from Patrick, a Scottish Primary School student, who suggested naming the vents after the icy moons on which hydrothermal activity has been observed or believed to occur. Some scientists hypothesise that life on Earth originated around hydrothermal vents. If vents exist on other planets or moons it would be the best place to start addressing a fundamental question: &#34;Does life exist elsewhere in the universe?&#34;<br><br>Looking across the Arctic expanse it is not hard to imagine it as an ice planet with life nestled around these warm vents. Perhaps the answers to the mysteries of life in the universe are to be found not in outer space, but in Earth’s inner space &#8212; the Ocean.<br><br>Named after one of Saturn&#39;s icy moons, the ENCELADUS black smoker was discovered at 82.89, -6.25. ENCELADUS is recognised as one of the most likely planets in our solar system to support life in its icy ocean, especially around vents. The second black smoker, discovered around 5 meters away, was named Mimas after another of Saturn&#39;s icy moons.<br><br>Leighton Rolley, Science Systems Manager, REV Ocean',
             location: {
-                center: { lon: -6.25413, lat: 80.55154 },
-                zoom: 4,
+                center: { lon: -6.25413, lat: 81.25154 },
+                zoom: 4.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
