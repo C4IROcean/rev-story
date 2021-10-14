@@ -545,7 +545,7 @@ var config = {
             id: 'story13',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'Wednesday, Oct 6: Glass under pressure',
             image: './images/Glass_Sponges.jpg',
             description: 'Our scientific investigations on the Aurora seamount continue. I am searching for seafloor communities that live at the periphery of the vents.<br><br>Meters from a black smoker, glass sponges have chosen a home on exposed basalt rock, under pressure 400 times greater than that at sea level. Their bodies are made of silicon absorbed from the sea water which gives them a fiberglass feel.  They live off very little, grow slowly, and have a long life, possibly hundreds of years. Sponges are not vent species but maybe they are benefiting from increased food from the neighboring vents.<br><br>Deep-sea sponge communities are hotspots of biodiversity and biomass. They enhance nutrient cycles and provide habitat to bottom-dwelling fish and invertebrates.<br><br>Here you can see dead stalks, baby and adult glass sponges. The dead stalks can structurally support the next generation of sponges. But where do these baby sponges come from? We have not yet found glass sponge larvae at this depth. Do they reproduce asexually?<br><br>With the help of high-resolution video and sponge collection we can learn more about these communities. Working under the drifting ice is challenging. We can only remain at the seafloor for short periods of time. It will take several ROV dives until we are able to document all the fauna. Next on my list is the elusive carnivorous sponge.<br><br>Pedro A. Ribeiro, Associate Professor, Department of Biological Sciences, University of Bergen',
             location: {
