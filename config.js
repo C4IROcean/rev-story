@@ -657,6 +657,10 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: 'greenland',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -670,7 +674,7 @@ var config = {
             description: 'Yesterday afternoon we left the Aurora Vent Field for NE Greenland. As ROV Aurora swam back towards the vessel and we saw, for the last time, the beautiful black smoker get smaller and smaller on our screens, a hundred emotions came flowing in: a great sense of achievement, teamwork, relief, happiness and even disbelief. This has been the most challenging cruise I have ever done, which makes the incredible results even more rewarding. For over 4 years, a team from multiple countries, with very different backgrounds have been working to make this happen. This team, the ROV team, the Captain, Officers and Crew of the RV Kronprins Haakon icebreaker have turned these efforts into reality. We exceeded all our expectations, managing 6 successful ROV dives on the Aurora Vent Field. We have samples for all the scientific teams, which will tell a great story of deep hydrothermal vents under Arctic ice.<br><br>How they are formed and how do they evolve?<br><br>Which animals live there? Are they linked (or not) to other deep-sea animals outside of the Arctic Ocean?<br><br>Early in the cruise, I accepted a challenge: if we have 5 successful dives on the vents, I will cut my long hair short. We had 6 successful dives… so yesterday, Maria took a pair of scissors and off went my hair, with the finishing touches of Carolina’s expert hands. The result is quite good, and the success of this first part of the cruise really worth the hair cut!<br><br>Eva Ramirez Llodra, Science Coordinator, REV Ocean, Marine Ecologist',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                zoom: 4,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -680,6 +684,10 @@ var config = {
             onChapterEnter: [
             {
                 layer: 'aurora',
+                opacity: 1
+              },
+                {
+                layer: 'greenland',
                 opacity: 1
               }
             ],
@@ -693,8 +701,8 @@ var config = {
             image: './images/Ice_planets.jpg',
             description: 'As ROV AURORA&#39;s lights illuminated the previously unseen black smokers the team was faced with a challenge. What should we name them? Naming is an important process in scientific discovery for researchers to reference and differentiate locations on the explored site in their peer-reviewed papers.<br><br> Various themes were discussed, from arctic animals, to exploration vessels, to historical explorers.<br><br>We wanted the names to represent the magnitude of our work at Aurora. Assistance came from Patrick, a Scottish Primary School student, who suggested naming the vents after the icy moons on which hydrothermal activity has been observed or believed to occur. Some scientists hypothesise that life on Earth originated around hydrothermal vents. If vents exist on other planets or moons it would be the best place to start addressing a fundamental question: &#34;Does life exist elsewhere in the universe?&#34;<br><br>Looking across the Arctic expanse it is not hard to imagine it as an ice planet with life nestled around these warm vents. Perhaps the answers to the mysteries of life in the universe are to be found not in outer space, but in Earth’s inner space &#8212; the Ocean.<br><br>Named after one of Saturn&#39;s icy moons, the ENCELADUS black smoker was discovered at 82.89, -6.25. ENCELADUS is recognised as one of the most likely planets in our solar system to support life in its icy ocean, especially around vents. The second black smoker, discovered around 5 meters away, was named Mimas after another of Saturn&#39;s icy moons.<br><br>Leighton Rolley, Science Systems Manager, REV Ocean',
             location: {
-                center: { lon: -0.61441, lat: 80.47982 },
-                zoom: 5.5,
+                center: { lon: -5.72642, lat: 80.55154 },
+                zoom: 4,
                 pitch: 24.00,
                 bearing: 0.01
             },
