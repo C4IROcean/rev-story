@@ -543,7 +543,7 @@ var config = {
         },
         {
             id: 'story13',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Wednesday, Oct 6: Glass under pressure',
             image: './images/Glass_Sponges.jpg',
@@ -555,7 +555,7 @@ var config = {
                 bearing: 0.01
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
             {
@@ -567,7 +567,7 @@ var config = {
         },
         {
             id: 'story14',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Thursday, Oct 7: Shades of Mud',
             image: './images/shades_of_mud.jpg',
@@ -591,7 +591,7 @@ var config = {
         },
         {
             id: 'story15',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Friday, Oct 8: Polluted with Life',
             image: './images/Biology_Sampling_2.jpg',
@@ -615,7 +615,7 @@ var config = {
         },
         {
             id: 'story17',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Sunday, Oct 10: Big syringe, tiny bugs',
             image: '',
@@ -639,7 +639,7 @@ var config = {
         },
         {
             id: 'story18',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Monday, Oct 11: Sampling under Pressure!',
             image: './images/Story18.jpg',
