@@ -399,7 +399,7 @@ var config = {
             hidden: false,
             title: '',
             image: './images/deck_exercise.jpg',
-            description: 'Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiation has turned into a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
+            description: 'Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiates a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
             location: {
                 center: { lon: 5.32937, lat: 82.60040 },
                 zoom: 6,
@@ -643,7 +643,7 @@ var config = {
             hidden: false,
             title: 'Monday, Oct 11: Sampling under Pressure!',
             image: './images/Story18.jpg',
-            description: 'To imagine the crushing pressures at Aurora, a 4km high stack of water jugs sat on your head comes to mind. Yet, at these extreme conditions, hot, high pressure liquid spewing from the seafloor is a veritable oasis for microbial life and a hotspot of seafloor mineral formation. Sampling the &#39;black smoker&#39; fluids venting here is therefore critical for us to make key predictions of the types of mineral deposits forming at the site, and the very nature of the chemical fuels feeding the ecosystem present here.<br><br>To understand exactly what life thrives on at Aurora and the types of mineral deposits, we first need to understand how these fluids are formed i.e. their chemical make-up. We use specialised samplers called &#39;IGTs&#39; (Isobaric Gas Tight samplers) to collect fluids (and measure their temperatures) right from inside the hot chimney structures. These titanium devices preserve the fluid samples at 400 atmospheres (seafloor pressure), without any loss of gases &#8211; many of which are fuels for life. Fully characterizing the chemistry of the fluids onboard involves analysing different compounds in these fluids, and preserving samples for back on land. Much like forensic scientists, we seek to understand the fluid’s history before it vented, and what the &#39;flavour&#39; of this fluid is. We do this by measuring various gas, element, and compound concentrations in the small samples we take, giving us a better understanding and helping to explain why life can thrive in this desolate crushing environment.<br><br>Samuel Pereira, PhD Candidate and Eoghan Reeves, Associate Professor, Aqueous Geochemistry, Department of Earth Science, University of Bergen',
+            description: 'To imagine the crushing pressures at Aurora, a 4km high stack of water jugs sitting on your head comes to mind. Yet, at these extreme conditions, hot, high pressure liquid spewing from the seafloor is a veritable oasis for microbial life and a hotspot of seafloor mineral formation. Sampling the &#39;black smoker&#39; fluids venting here is therefore critical for us to make key predictions of the types of mineral deposits forming at the site, and the very nature of the chemical fuels feeding the ecosystem present here.<br><br>To understand exactly what life thrives on at Aurora and the types of mineral deposits, we first need to understand how these fluids are formed i.e. their chemical make-up. We use specialised samplers called &#39;IGTs&#39; (Isobaric Gas Tight samplers) to collect fluids (and measure their temperatures) directly from inside the hot chimney structures. These titanium devices preserve the fluid samples at 400 atmospheres (seafloor pressure), without any loss of gases &#8211; many of which are fuels for life. Fully characterizing the chemistry of the fluids onboard involves analysing different compounds in these fluids, and preserving samples for back on land. Much like forensic scientists, we seek to understand the fluid’s history before it vented, and what the &#39;flavour&#39; of this fluid is. We do this by measuring various gas, element, and compound concentrations in the small samples we take, giving us a better understanding and helping to explain why life can thrive in this desolate crushing environment.<br><br>Samuel Pereira, PhD Candidate and Eoghan Reeves, Associate Professor, Aqueous Geochemistry, Department of Earth Science, University of Bergen',
             location: {
                 center: { lon: 3.92794, lat: 82.92023 },
                 zoom: 6,
@@ -702,6 +702,54 @@ var config = {
             description: 'As ROV AURORA&#39;s lights illuminated the previously unseen black smokers the team was faced with a challenge. What should we name them? Naming is an important process in scientific discovery for researchers to reference and differentiate locations on the explored site in their peer-reviewed papers.<br><br> Various themes were discussed, from arctic animals, to exploration vessels, to historical explorers.<br><br>We wanted the names to represent the magnitude of our work at Aurora. Assistance came from Patrick, a Scottish Primary School student, who suggested naming the vents after the icy moons on which hydrothermal activity has been observed or believed to occur. Some scientists hypothesise that life on Earth originated around hydrothermal vents. If vents exist on other planets or moons it would be the best place to start addressing a fundamental question: &#34;Does life exist elsewhere in the universe?&#34;<br><br>Looking across the Arctic expanse it is not hard to imagine it as an ice planet with life nestled around these warm vents. Perhaps the answers to the mysteries of life in the universe are to be found not in outer space, but in Earth’s inner space &#8212; the Ocean.<br><br>Named after one of Saturn&#39;s icy moons, the ENCELADUS black smoker was discovered at 82.89, -6.25. ENCELADUS is recognised as one of the most likely planets in our solar system to support life in its icy ocean, especially around vents. The second black smoker, discovered around 5 meters away, was named Mimas after another of Saturn&#39;s icy moons.<br><br>Leighton Rolley, Science Systems Manager, REV Ocean',
             location: {
                 center: { lon: -6.25413, lat: 81.25154 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story21',
+            alignment: 'left',
+            hidden: false,
+            title: 'Thursday, Oct 14: Ice break',
+            image: './images/ice_break.jpg',
+            description: 'We transit via Molloy Deep due to a need to unravel and reset the CTD winch at depths greater than 4000m. We use this opportunity to recalibrate the DVL (Doppler Velocity Log) with help of the water density measurement from the CTD.<br><br>While we work on refining these technical components, we log our longest ROV dive to date, eight hours. We sample a few sponges and rocks and reflect on how spoiled we´ve been viewing a hydrothermal vent dive after dive at Aurora. It has been a short 24 hours without ice and despite a restful night, most people look forward to meeting the ice edge again tomorrow.<br><br>Before we left the ice cover, we managed to let down the gangway and step onto the sea ice for some Arctic volleyball and soccer.',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story22',
+            alignment: 'left',
+            hidden: false,
+            title: 'Friday, Oct 15: Back to Ice',
+            image: './images/Nils_Bridge.jpg',
+            description: 'At sea, the quickest route is normally the shortest route. Here in the Arctic Ice, it is different. I am on the HACON cruise to learn from the experienced ice breaker crew.<br><br>Traveling through the ice leads (small ice openings amongst two-meter-thick ice), is not easy. Predicting the time of arrival to the Aurora Vent Field requires both luck and skill. Often when we identify an ice lead, we end up going the wrong direction. Other times we have to transit the wrong direction to get to the site.<br><br>It is not easy to operate in these extreme conditions. The weather can shift very quick. During the day the risk of fog is imminent. At night it is hard to see where we should go.<br><br>We are at the mercy of the ice drift, as result of wind, currents and tides. Sometimes the ice opens in highways, other times it closes and seems like small Norwegian country roads, with the risk of a dead end ahead.<br><br>Some ice sheets are denser and thicker, and when the ice meets, it makes shelves that are hard to get through. The sound of the ship going through thick ice is not natural. It sounds like it is in pain, or someone using the fingernails on a chalkboard. The ship is shaking and moving around in irregular patterns. We get used to it and accept it, but it will never be normal.<br><br>The ship is technically very advanced with equipment resembling GPS. We have ice maps and ice radar but despite these navigation aids some aspects of ice operations you learn by experience.<br><br>Nils Baadnes, Captain, REV Ocean',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
                 zoom: 4.5,
                 pitch: 24.00,
                 bearing: 0.01
