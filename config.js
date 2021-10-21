@@ -765,6 +765,126 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'story23',
+            alignment: 'left',
+            hidden: false,
+            title: 'Saturday, Oct 16: Meet our doctor at sea',
+            image: './images/Pascal.jpg',
+            description: 'A few months before the HACON21 Cruise, Eva asked me if I wanted to join as the medical doctor on board. The cruise would work in a remote location covered by sea ice in the High Arctic, away from helicopter range. A doctor was highly recommended, particularly as we were still in a covid 19 situation. Before departure, I had to organise my work and family commitments, investigate the medical equipment and logistics on board, and immerse myself in English conversations with a teacher.<br><br>Welcoming international participants to the cruise, Eva and I decided it was best for a mandatory PCR test before arriving in Longyearbyen in addition to the IMR requirement 24 hours before embarking on the vessel. The days before departure were worrying for me; I envisioned all the severe medical problems we may encounter while out of hospital range. Once we set sail, I had to find my role on board within a hard-working team. Before long I was hooked on all the scientific activities, integrating with the group, welcomed into the labs where samples were being processed, allowing me to contribute to the project and feel a part of the team. Experiencing the ROV dives with science commentary was exciting and interesting. I was actually surprised at how busy I have been. Between ROV dives, delicious meals, science talks, gym, reading, admiring the amazing ice environment, practising my English and chatting to people, my medical work was luckily not that difficult!<br><br>Pascal',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story24',
+            alignment: 'left',
+            hidden: false,
+            title: 'Sunday, Oct 17: Birthdays on board',
+            image: './images/birthday.jpg',
+            description: 'Weeks with little to no connection to the news, work emails, and social media. Short days with indistinguishable sunrises from sunsets. Lack of land routines. Being in the Arctic on a vessel can feel like a time warp. The day of the week borders irrelevance until we have a birthday on board. During our cruise, we have celebrated five. Kristina, the head chef, and a few artistic scientists (Emily and Marie) help decorate personalized cakes, and we sing a competing chorus of Happy Birthday in nine or more languages.',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story25',
+            alignment: 'center',
+            hidden: false,
+            title: 'Monday, Oct 18: Putting my name on the map',
+            image: './images/ice_leads.jpg',
+            description: '&#34;What an easy target&#34; I thought naively, when I saw how sparsely mapped the Northeast Greenland shelf was. Why hasn’t anyone mapped this part of the ocean like we have mapped the Barents Sea?<br><br>To answer my question, in a weak moment, I decided to join the HACON21 cruise to put my name on the map. The cruise objectives:<br><br>1) test dive in the Molloy deep<br><br>2) document and sample the Aurora vent site<br><br>and last but also least<br><br>3) to map the NE Greenland shelf seafloor<br><br>On our way to NE Greenland shelf, it turns out, there IS a reason why people haven’t mapped this part of the world yet. We reached my target area after 30 hours and over 200 km of crushing through thick ice. Turns out that seafloor mapping while crushing ice isn’t easy either, ice pulled underneath the ship interfering, creating data noise that reduces the quality.<br><br>The only way to get good enough data was to go with the ice, not against it. The best way to do this was to use the leads, areas of open water or thin ice, to simply travel back and forth, collecting data. As the leads drifted south, we drifted with them mapping the seafloor beneath us.<br><br>The idea worked great, but it makes for some funny looking surveys. Just as I started writing my name in high-resolution bathymetry, our lead closed and forced us south, out of my study area.<br><br>Frank W. Jakobsen, PhD candidate, UiT The Arctic University of Norway',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story26',
+            alignment: 'center',
+            hidden: false,
+            title: 'Tuesday, Oct 19: Tiny Arctic worms make their way to a lab in Portugal',
+            image: './images/image002.jpg',
+            description: 'Packing our Aurora samples made us reflect on this extraordinary expedition. At the end of the 2019 Aurora expedition, we left the ship with a metal box full of incredible sediment samples. These samples helped us study the tiny animals living between the sediment particles – so small they are usually only visible under a microscope. These small animals are called meiofauna. Marine sediments are home to many different meiofauna animals, but the most abundant group found are the nematodes – tiny worms less than 1mm long. Nematodes come in many shapes and sizes, but they are often forgotten among the larger animals of the sea. Our initial findings from Aurora showed that they can thrive at the Aurora, 4000 m below the ice, where food is extremely scarce. However, the tale of these tiny worms is incomplete.<br><br>New samples collected from the Aurora vent field during HACON 2021 expedition will help to complete the tale. Now we will go back to the lab and finish writing the story of the Aurora nematodes. Our studies will help us understand what species live at Aurora, whether they are close or distant relatives of other vent nematodes and finally, how these tiny worms survive the harsh conditions at Aurora.<br><br>Sofia Pinto Ramalho, Assistant researcher, CESAM, Universidade de Aveiro, Portugal',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story27',
+            alignment: 'center',
+            hidden: false,
+            title: 'Wednesday, Oct 20: From Pole to Pole, then and now',
+            image: './images/image003.jpg',
+            description: 'The last time I set sail on a research vessel was over 20 years ago in the Antarctic. I was completing research exploring the connection between animals living on the deep seafloor and those in the upper water column. Over the years, I have been lucky enough to join a variety of teams exploring life in our deep ocean across the globe including the Gulf of Mexico, the East Pacific Rise, the North-East Atlantic, the Bahamas and the South China Sea. One of my most thrilling experiences was to dive in human occupied submersibles (HOVs) hundreds of meters below the surface to watch, record and sample the incredible life that is happening, mostly out of sight.<br><br>It was on these travels I met Eva and Ana…<br><br>Since then, we have been working at the interface of science and policy as co-lead for the Deep-Ocean Stewardship Initiative. Most recently we developed the UN Ocean Decade programme Challenger 150. In a few months the program has already begun hosting cruises, the HACON expedition being the fourth.<br><br>After 20 years of choosing to be land-based, am I happy to be back at the chilly, wobbly, noisy, and messy end of deep-sea science? ABSOLUTELY! I was thrilled to be invited to contribute to this &#34;high risk/high gain&#34; expedition that we had discussed many years previously as part of the Census of Marine Life programme. To undergo sea-ice safety and polar bear training, board a state-of-the-art Norwegian ice-breaker with all the comforts you can imagine, experience the immense clatter, thunderous roar, and high-pitched metal on metal scraping as the ship carved through the ice sheet (thank goodness I was warned!), help out with data logging and sample processing, feel the thrill of historic discovery, meet many fabulous people and learn so much from deep-sea scientists from disciplines other than my own&#8212;a renaissance of adventures at sea.<br><br>Maria Baker, University of Southampton, UK',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
       {
             id: 'full-route-close',
             alignment: 'left',
