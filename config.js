@@ -842,7 +842,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Tuesday, Oct 19: Tiny Arctic worms make their way to a lab in Portugal',
-            image: './images/image002.jpg',
+            image: './images/Sofia.jpg',
             description: 'Packing our Aurora samples made us reflect on this extraordinary expedition. At the end of the 2019 Aurora expedition, we left the ship with a metal box full of incredible sediment samples. These samples helped us study the tiny animals living between the sediment particles – so small they are usually only visible under a microscope. These small animals are called meiofauna. Marine sediments are home to many different meiofauna animals, but the most abundant group found are the nematodes – tiny worms less than 1mm long. Nematodes come in many shapes and sizes, but they are often forgotten among the larger animals of the sea. Our initial findings from Aurora showed that they can thrive at the Aurora, 4000 m below the ice, where food is extremely scarce. However, the tale of these tiny worms is incomplete.<br><br>New samples collected from the Aurora vent field during HACON 2021 expedition will help to complete the tale. Now we will go back to the lab and finish writing the story of the Aurora nematodes. Our studies will help us understand what species live at Aurora, whether they are close or distant relatives of other vent nematodes and finally, how these tiny worms survive the harsh conditions at Aurora.<br><br>Sofia Pinto Ramalho, Assistant researcher, CESAM, Universidade de Aveiro, Portugal',
             location: {
                 center: { lon: -0.46579, lat: 79.42825 },
