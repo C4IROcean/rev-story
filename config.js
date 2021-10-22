@@ -885,6 +885,30 @@ var config = {
             ],
             onChapterExit: []
         },
+             {
+            id: 'story28',
+            alignment: 'center',
+            hidden: false,
+            title: 'Thursday, Oct 21: The rocks tell a story…',
+            image: './images/Rocks tell a story.jpg',
+            description: 'When the hot hydrothermal fluids flow deep under the seafloor, they dissolve and transport minerals from the volcanic rocks. When the fluids reach the seafloor, they mix with cold seawater, which causes the dissolved minerals to precipitate. These minerals gradually accumulate at the vents, forming the chimneys and mounds that we see on the seafloor. The black smoke from the chimneys is also composed of tiny minerals that form when fluids mix with seawater. The accumulation of these minerals provides a record of the history of hydrothermal venting at Aurora.<br><br>The HACON 2021 expedition is the first to collect rock samples from the Aurora vent field using an ROV. We collected 15 samples of several different rock types, including pieces of chimney walls, pieces of old collapsed chimneys, and small iron-rich chimneys constructed by microbes that live near the hot vents.<br><br>With the samples collected during this expedition, we will analyze the age and composition of the vent deposits to understand: 1) the relationship between the composition of the chimneys and the composition of the fluids and underlying volcano; 2) for how long has hydrothermal activity been occurring at Aurora; 3) if and when the location of venting and the composition of the vent fluids changed over time. <br><br> John Jamieson Canada Research Chair in Marine Geology and an assistant professor in the Department of Earth Sciences, Memorial University,Canada.',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
       {
             id: 'full-route-close',
             alignment: 'left',
