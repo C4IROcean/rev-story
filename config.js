@@ -909,6 +909,29 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'story29',
+            alignment: 'right',
+            hidden: false,
+            title: 'Friday, Oct 22: My first research cruise',
+            description: 'I received a phone call on August 30th at 13:00<br><br>"Do you want to go to the Arctic?"<br><br>"YES!"<br><br>I have wanted to be a marine biologist since I was six years old. Having the chance to go to the Arctic on my first cruise is a privilege. The weeks before joining the cruise were a rush, with many documents to prepare, medical certificate, passport, but I was super excited to join the ship. Unfortunately, my first days on board were not very good. It took me three days to adjust to the ship movement. Ginger crystals, crackers, advice from other colleagues and a few extra hours of sleep made the difference.<br><br>Most of our work was dependent on the ice conditions, so we had to be prepared for an ROV dive, a CTD, or a push core at any time. However, this cruise had the right balance between work and play. During our time off, we had a lot of activities, including volleyball (one of my favourite sports), karaoke, movies and card games.<br><br>I also managed to work on my master thesis on collecting species for a new database from the latest discoveries on cold seeps. The last database on cold seeps was created in 2006 by the ChessBase project, where Maria Baker and Eva Ramirez Llodra were part of the leading group. It was a privilege to meet them in person during this cruise and get to know them beyond the science.<br><br>It was great to meet other scientists with different backgrounds, learn about their work, and relate those concepts with my own. An incredible experience that I´ll never forget…and that I hope to repeat.<br><br>Carolina Ventura Costa<br><br>Universidade de Averio, Portugal<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/a4NGA3XMqcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
       {
             id: 'full-route-close',
             alignment: 'left',
