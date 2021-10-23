@@ -297,7 +297,7 @@ var config = {
             image: './images/greenland-border.jpg',
             description: 'The team wakes up for 07:30 breakfast and can see the ship is heading further North on the onboard tv screens. We are already 150 nautical miles from the Molloy Deep. Around 10:55 we cross over into Greenland territorial waters. The depth markers on the bathymetry charts start to become less detailed, suggesting the ocean is less surveyed in the area we´re headed. We arrive around 13:15 as the first very large ice flows start to drift into view. A perimeter of 2 nautical miles is the last visible open water.',
             location: {
-                center: { lon: 4.13119, lat: 81.44665 },
+                center: { lon: 3.63119, lat: 81.44665 },
                 zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
@@ -321,7 +321,7 @@ var config = {
             image: './images/reaching_ice.jpg',
             description: 'At 15:00 the ROV Team prepares Aurora and Borealis to make the second deep dive on the edge of the ice. The ROV hits the seabed at 1700 meters at 16:00 and takes its first sample at 16:12. They team brings the rig back on deck by 17:30 and in a short two hours the ice has drifted almost completely all around us.',
             location: {
-                center: { lon: 4.13119, lat: 81.44665 },
+                center: { lon: 3.63119, lat: 81.44665 },
                 zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
@@ -345,7 +345,7 @@ var config = {
             image: './images/oct2arrival.jpg',
             description: 'During our daily 18:30 science briefing we can hear the increasingly loud scraping and crunching sounds of bigger and bigger chunks of ice throughout the auditorium and lower decks. Our curiosity to see the expanse of frozen water draws people up to the observation lounge on deck 9 or outside and onto the front helicopter pad on deck 6.<br><br>Cruise co-lead, Eva Ramirez-Llorda, starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>We are now 96 nautical miles to the Aurora vent field.',
             location: {
-                center: { lon: 4.13119, lat: 81.84665 },
+                center: { lon: 3.63119, lat: 81.84665 },
                 zoom: 5,
                 pitch: 24.00,
                 bearing: 0.01
