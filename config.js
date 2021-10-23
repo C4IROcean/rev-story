@@ -399,7 +399,7 @@ var config = {
                 bearing: 0.01
             },
             mapAnimation: 'easeTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
             {
@@ -417,7 +417,7 @@ var config = {
             image: './images/bear_close.jpg',
             description: 'We managed to travel about 10 nautical miles closer to the Aurora vents overnight. At breakfast only 24 nautical miles remained.<br><br>It is becoming comically normal to ignore the aggressive sound of the one-meter-thick ice being scrapped against the side of the steel ship and crushed underneath 9000 tons. Normal seafarer instinct to such a thunderous bow banging would be to evacuate ship. These reactions have subdued as we casually eat breakfast with a destruction soundtrack in the background and shout through meetings and presentations competing with the ice breaker.<br><br>We had our first polar bear sighting this morning. Everyone gathered on the bridge, sharing binoculars to catch a glimpse of the arctic´s top predator, less than a kilometer away.<br><br>&#34;Polar bear on port side&#34; an announcement from the bridge came at 19:30 as the ship slowed to a stop. Everyone suited up to go outdoors in -16 C to get a closer look at a Polar bear and her cub. The pair came within meters of the ship and were extremely curious.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
+                center: { lon: -5.62794, lat: 82.72023 },
                 zoom: 6,
                 pitch: 24.00,
                 bearing: 0.01
@@ -445,7 +445,7 @@ var config = {
             image: './images/aurora3D.jpg',
             description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north and drift south on the ice (ice floe speed currently around 0.3 knots). The ROV will deploy to the seabed going ahead of the ship in search for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
+                center: { lon: -5.62794, lat: 82.72023 },
                 zoom: 6,
                 pitch: 24.00,
                 bearing: 0.01
