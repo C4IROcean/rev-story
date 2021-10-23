@@ -473,8 +473,8 @@ var config = {
             image: './images/ROV_Oct5.jpg',
             description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later we reach the Aurora Vents and get our first looks at the gorgeous black chimney. We manage to take a small sample of chimney before we must ascend around 9:12.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -501,8 +501,8 @@ var config = {
             image: './images/Biology_Sampling_1.jpg',
             description: 'Chemists get the first samples, rushing them to the freezer. Next come the biologists searching for microscopic fauna. Lastly the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -525,8 +525,8 @@ var config = {
             image: './images/Carving_Ice.jpg',
             description: 'Diving to depths of nearly 4km in -1C is challenging and the oil from the ROV has been having a difficult time with the cold temperature, making the hydraulics slower. Outside of the Arctic deep sea water temperatures range from 2-4C, highlighting the risk involved with this particular deep sea expedition. The ROV team is quick to find a solution. The ship repositions North of the vent fields, and we prepare for our second dive of the day at 16:00.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
