@@ -38,10 +38,6 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
-              },
-                {
-                layer: 'start',
-                opacity: 0
               }
             ],
             onChapterExit: [
@@ -79,10 +75,6 @@ var config = {
                 {
                 layer: 'test-deep',
                 opacity: 0
-              },
-                {
-                layer: 'start',
-                opacity: 0
               }
             ],
             onChapterExit: [
@@ -119,10 +111,6 @@ var config = {
               },
                 {
                 layer: 'test-deep',
-                opacity: 0
-              },
-                {
-                layer: 'start',
                 opacity: 0
               }
             ],
@@ -163,11 +151,7 @@ var config = {
                 opacity: 0
               },
                 {
-                layer: 'start',
-                opacity: 0
-              },
-                {
-                layer: 'sailing-half',
+                layer: '928',
                 opacity: 0
               }
             ],
@@ -191,6 +175,10 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
+                layer: '928',
+                opacity: 1
+              },
+             {
                 layer: 'test-shallow',
                 opacity: 0
               },
@@ -198,12 +186,8 @@ var config = {
                 layer: 'test-deep',
                 opacity: 0
               },
-                {
-                layer: 'start',
-                opacity: 0
-              },
-                {
-                layer: 'sailing-half',
+              {
+                layer: '929',
                 opacity: 0
               }
             ],
@@ -227,6 +211,10 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
+                layer: '929',
+                opacity: 1
+              },
+            {
                 layer: 'test-shallow',
                 opacity: 1
               },
@@ -235,11 +223,7 @@ var config = {
                 opacity: 0
               },
                 {
-                layer: 'start',
-                opacity: 1
-              },
-                {
-                layer: 'sailing-half',
+                layer: '930',
                 opacity: 0
               }
             ],
@@ -262,9 +246,13 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-            {
-                layer: 'sailing-half',
+              {
+                layer: '930',
                 opacity: 1
+              },
+                {
+                layer: '101',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -291,7 +279,11 @@ var config = {
                 opacity: 1
               },
                 {
-                layer: 'sailing',
+                layer: '101',
+                opacity: 1
+              },
+                {
+                layer: '102',
                 opacity: 0
               }
             ],
@@ -314,8 +306,8 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-            {
-                layer: 'sailing',
+              {
+                layer: '102',
                 opacity: 1
               }
             ],
@@ -339,7 +331,7 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
-                layer: 'sailing',
+                layer: '102',
                 opacity: 1
               }
             ],
@@ -362,9 +354,9 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-            {
-                layer: 'sailing',
-                opacity: 1
+              {
+                layer: '103',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -373,7 +365,7 @@ var config = {
             id: 'story10a',
             alignment: 'left',
             hidden: false,
-            title: 'Navigating Through Ice',
+            title: 'Sunday, Oct 3: Navigating Through Ice',
             image: './images/ice_nav.jpg',
             description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.',
             location: {
@@ -387,7 +379,7 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
-                layer: 'sailing',
+                layer: '103',
                 opacity: 1
               }
             ],
@@ -411,8 +403,8 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
-                layer: 'sailing',
-                opacity: 1
+                layer: '104',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -435,7 +427,7 @@ var config = {
             callback: '',
             onChapterEnter: [
             {
-                layer: 'sailing',
+                layer: '104',
                 opacity: 1
               },
                 {
@@ -465,6 +457,10 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '105',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -488,6 +484,10 @@ var config = {
             onChapterEnter: [
             {
                 layer: 'aurora',
+                opacity: 1
+              },
+                {
+                layer: '105',
                 opacity: 1
               }
             ],
@@ -537,6 +537,10 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '106',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -561,6 +565,14 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '106',
+                opacity: 1
+              },
+                {
+                layer: '107',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -585,6 +597,14 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '107',
+                opacity: 1
+              },
+                {
+                layer: '108',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -609,6 +629,18 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '108',
+                opacity: 1
+              },
+                {
+                layer: '109',
+                opacity: 0
+              },
+                {
+                layer: '1010',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -633,6 +665,18 @@ var config = {
             {
                 layer: 'aurora',
                 opacity: 1
+              },
+                {
+                layer: '109',
+                opacity: 1
+              },
+                {
+                layer: '1010',
+                opacity: 1
+              },
+                {
+                layer: '1011',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -659,9 +703,13 @@ var config = {
                 opacity: 1
               },
                 {
+                layer: '1011',
+                opacity: 1
+              },
+                {
                 layer: 'greenland',
                 opacity: 0
-              }
+              }                
             ],
             onChapterExit: []
         },
