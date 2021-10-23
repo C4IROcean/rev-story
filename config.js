@@ -333,6 +333,10 @@ var config = {
             {
                 layer: '102',
                 opacity: 1
+              },
+                {
+                layer: '103',
+                opacity: 0
               }
             ],
             onChapterExit: []
@@ -353,12 +357,7 @@ var config = {
             mapAnimation: 'easeTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-              {
-                layer: '103',
-                opacity: 0
-              }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         },
         {
@@ -405,6 +404,10 @@ var config = {
             {
                 layer: '104',
                 opacity: 0
+              },
+                {
+                layer: '103',
+                opacity: 1
               }
             ],
             onChapterExit: []
@@ -547,14 +550,14 @@ var config = {
         },
         {
             id: 'story13',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Wednesday, Oct 6: Glass under pressure',
             image: './images/Glass_Sponges.jpg',
             description: 'Our scientific investigations on the Aurora seamount continue. I am searching for seafloor communities that live at the periphery of the vents.<br><br>Meters from a black smoker, glass sponges have chosen a home on exposed basalt rock, under pressure 400 times greater than that at sea level. Their bodies are made of silicon absorbed from the sea water which gives them a fiberglass feel.  They live off very little, grow slowly, and have a long life, possibly hundreds of years. Sponges are not vent species but maybe they are benefiting from increased food from the neighboring vents.<br><br>Deep-sea sponge communities are hotspots of biodiversity and biomass. They enhance nutrient cycles and provide habitat to bottom-dwelling fish and invertebrates.<br><br>Here you can see dead stalks, baby and adult glass sponges. The dead stalks can structurally support the next generation of sponges. But where do these baby sponges come from? We have not yet found glass sponge larvae at this depth. Do they reproduce asexually?<br><br>With the help of high-resolution video and sponge collection we can learn more about these communities. Working under the drifting ice is challenging. We can only remain at the seafloor for short periods of time. It will take several ROV dives until we are able to document all the fauna. Next on my list is the elusive carnivorous sponge.<br><br>Pedro A. Ribeiro, Associate Professor, Department of Biological Sciences, University of Bergen',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -579,14 +582,14 @@ var config = {
         },
         {
             id: 'story14',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Thursday, Oct 7: Shades of Mud',
             image: './images/shades_of_mud.jpg',
             description: 'The colour of mud can be surprisingly exciting, if you ask the right person. The Hacon 2021 expedition collected the first mud samples today and subsequently geologists aboard were particularly happy. Different spots in the ocean have different mud characteristics, including colour and consistency, which hint toward the processes in the area forming and depositing the mud. For example, many round quartz grains can indicate that the particles composing the mud have come a long way. Many settings have (subjectively) quite boring grey-ish mud so the orange-gold mud with black streaks we sampled from the seafloor around the Aurora vent field today elicited some serious excitement. Minerals transported from deep in the crust to the seafloor by hydrothermal circulation are clearly influencing the colours of our Aurora-mud. Understanding the mud at the Aurora vent field, including the exact cause for the colour and consistency will help us understand the history of venting at the site and also will help us understand the connection between the vents and fauna living nearby.<br><br>By Kate Waghorn and Claudio Argentino, Post Doctoral Fellows, Gas Hydrate and Free Gas Reservoirs research group, CAGE University of Tromso.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -611,14 +614,14 @@ var config = {
         },
         {
             id: 'story15',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Friday, Oct 8: Polluted with Life',
             image: './images/Biology_Sampling_2.jpg',
             description: '&#34;Polluted with life&#34; the geologists claim as they look at the vents full of shrimp-like creatures and little snails. These incredible species thrive in ambient sea water next to vents with temperatures as high as 400 degrees Celsius, 4km deep under permanent Arctic ice.<br><br>After travelling across a stunning landscape of deep-sea sponges, we approach the active Aurora Vent Field. Fluids, resembling black smoke, rise from the earth’s crust in a forest of chimneys. Our objective on this dive is to retrieve animal samples. Once ROV Aurora is in position, the pilots use a suction sampler (read: hoover), to snatch those little beasties into a chamber at the back of the ROV. We sample over a thousand animals (less than two centimetres big) from three different active vents.  These samples will tell us who eats who in the vent field. How do these animals reproduce? Do they have ancestors from other vent fields?<br><br>Biologists will focus on understanding if these animal communities are unique from those found on the Arctic Mid-Ocean Ridge system, up to 1000 kilometres away, or other sites around the world. What geological events in the past might have allowed them to develop independently on the Aurora Vent Field below ice? These animals have the potential to reshape our knowledge on the biodiversity of vents.<br><br>As it now stands, ice is no longer the limit for deep-sea researchers.<br><br>By Lissette Victorero, Post-Doctoral Research Fellow, Norwegian Institute for Water Research, Norway and University of Aveiro, Portugal.',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -647,14 +650,14 @@ var config = {
         },
         {
             id: 'story17',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Sunday, Oct 10: Big syringe, tiny bugs',
             image: '',
             description: 'For the past year I have been working with microbial sequence data from the deep sea without ever having collected it myself. At least not until this trip to the Arctic.<br><br>Today´s dive was a gleaming success with sample collection for chemistry, geology, and biology. ROV Aurora already had its hands full with fluid samplers and the suction sampler designed for animal collection. This dive, the ROV was juggling an additional tool: its left arm bore two &#34;biosyringes.&#34;  Capable of collecting volumes up to one liter each, these jumbo-sized syringes were deployed with the goal of collecting microbial mats off the side of the Hans Tore vent crater. Microbial mats are a unique environment, acting as both a scaffold and a haven for a large diversity and abundance of microbes. It can be tricky to sample these delicate mats effectively – the biosyringe’s snorkel is the perfect tool for the job.<br><br>When the ROV arrives back on deck with the deep-sea samples, the microbiology team heads to the environmental lab. Here I scrape chimney rocks and split up the material from the biosyringes into small vials to immediately freeze at -80 C. A single sample vial often contains hundreds of different microbial types. I am interested in discovering who they are and how their cells are powered in the vent environment by analyzing the microbial DNA. As a bioinformatician, this is where my specialty comes in.<br><br>This post-processing happens back on land. Joining this field mission on an icebreaker in the Arctic seems very far from the job description for a bioinformatician. Gaining an overview on how sampling works gives me a greater understanding and appreciation for the sampling challenges and variability of the final outcome &#8212; the DNA sequence data.<br><br>Transporting the samples we collect from under Arctic ice to the end of the data pipeline, discovering how the microbial world functions at this vent enables potential discoveries in places we have not been able to access before.<br><br>Emily Olesin Denny, MSc., Marine microbiologist &#38; bioinformatician, PhD candidate, University of Bergen, Norway',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
@@ -683,14 +686,14 @@ var config = {
         },
         {
             id: 'story18',
-            alignment: 'center',
+            alignment: 'left',
             hidden: false,
             title: 'Monday, Oct 11: Sampling under Pressure!',
             image: './images/Story18.jpg',
             description: 'To imagine the crushing pressures at Aurora, a 4km high stack of water jugs sitting on your head comes to mind. Yet, at these extreme conditions, hot, high pressure liquid spewing from the seafloor is a veritable oasis for microbial life and a hotspot of seafloor mineral formation. Sampling the &#39;black smoker&#39; fluids venting here is therefore critical for us to make key predictions of the types of mineral deposits forming at the site, and the very nature of the chemical fuels feeding the ecosystem present here.<br><br>To understand exactly what life thrives on at Aurora and the types of mineral deposits, we first need to understand how these fluids are formed i.e. their chemical make-up. We use specialised samplers called &#39;IGTs&#39; (Isobaric Gas Tight samplers) to collect fluids (and measure their temperatures) directly from inside the hot chimney structures. These titanium devices preserve the fluid samples at 400 atmospheres (seafloor pressure), without any loss of gases &#8211; many of which are fuels for life. Fully characterizing the chemistry of the fluids onboard involves analysing different compounds in these fluids, and preserving samples for back on land. Much like forensic scientists, we seek to understand the fluid’s history before it vented, and what the &#39;flavour&#39; of this fluid is. We do this by measuring various gas, element, and compound concentrations in the small samples we take, giving us a better understanding and helping to explain why life can thrive in this desolate crushing environment.<br><br>Samuel Pereira, PhD Candidate and Eoghan Reeves, Associate Professor, Aqueous Geochemistry, Department of Earth Science, University of Bergen',
             location: {
-                center: { lon: 3.92794, lat: 82.92023 },
-                zoom: 6,
+                center: { lon: -6.693, lat: 82.92023 },
+                zoom: 6.5,
                 pitch: 24.00,
                 bearing: 0.01
             },
