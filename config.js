@@ -917,7 +917,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Wednesday, Oct 20: From Pole to Pole, then and now',
-            image: './images/image002.png',
+            image: './images/image002.jpg',
             description: 'The last time I set sail on a research vessel was over 20 years ago in the Antarctic. I was completing research exploring the connection between animals living on the deep seafloor and those in the upper water column. Over the years, I have been lucky enough to join a variety of teams exploring life in our deep ocean across the globe including the Gulf of Mexico, the East Pacific Rise, the North-East Atlantic, the Bahamas and the South China Sea. One of my most thrilling experiences was to dive in human occupied submersibles (HOVs) hundreds of meters below the surface to watch, record and sample the incredible life that is happening, mostly out of sight.<br><br>It was on these travels I met Eva and Ana…<br><br>Since then, we have been working at the interface of science and policy as co-lead for the Deep-Ocean Stewardship Initiative. Most recently we developed the UN Ocean Decade programme Challenger 150. In a few months the program has already begun hosting cruises, the HACON expedition being the fourth.<br><br>After 20 years of choosing to be land-based, am I happy to be back at the chilly, wobbly, noisy, and messy end of deep-sea science? ABSOLUTELY!',
             location: {
                 center: { lon: -0.46579, lat: 79.42825 },
