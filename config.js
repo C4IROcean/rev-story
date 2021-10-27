@@ -989,7 +989,32 @@ var config = {
             hidden: false,
             title: 'Saturday, Oct 23: Some of your finest bottle, please.',
             image: './images/Marie.jpg',
-            description: 'When I filled out paperwork to get my precious samples shipped back from the harbor of Longyearbyen to Tromsø, I had to give an estimate of their value.<br><br>“Invaluable!” was my first thought.<br><br> I wrote some steep numbers down and thought of the border officer’s surprise when they read that the shipment contained merely vials of… seawater.<br><br>This water is more special than the finest of Bordeauxs:  it comes from the vicinity around and directly above the Aurora vents, straight from under the ice.<br><br> My CAGE (UiT) team aim to understand how nutrients and carbon compounds necessary for microbial life are distributed in the water column and how hydrothermal fluid affects this distribution. For this, we need special sampling bottles, called Niskin bottles, mounted on a frame with a Conductivity (for salinity)-Temperature-Depth sensor. Together, these apparatuses form the CTD rosette, which gives us both the physical properties of the water column and the ability to sample water at various depths.<br><br>Special situations, such as ice cover, require special means. In this case, ROV Aurora lent me a hand underwater to sample the dark hydrothermal plume into a Niskin bottle a couple of meters above the vent, at 3800m depth. This bottle turned out to be one of my finest!<br><br>Marie Stetzler, PhD candidate, UiT The Arctic University of Norway',
+            description: 'When I filled out paperwork to get my precious samples shipped back from the harbor of Longyearbyen to Tromsø, I had to give an estimate of their value.<br><br>“Invaluable!” was my first thought.<br><br> I wrote some steep numbers down and thought of the border officer’s surprise when they read that the shipment contained merely vials of… seawater.<br><br>This water is more special than the finest of Bordeauxs: coming from directly above the Aurora vents, under the ice.<br><br> My CAGE (UiT) team aim to understand how nutrients and carbon compounds necessary for microbial life are distributed in the water column and how hydrothermal fluid affects this distribution. For this, we need special sampling bottles, called Niskin bottles, mounted on a frame with a Conductivity (for salinity)-Temperature-Depth sensor. Together, these apparatuses form the CTD rosette, which gives us both the physical properties of the water column and the ability to sample water at various depths.<br><br>Special situations, such as ice cover, require special means. In this case, ROV Aurora lent me a hand underwater to sample the dark hydrothermal plume into a Niskin bottle a couple of meters above the vent, at 3800m depth. This bottle turned out to be one of my finest!<br><br>Marie Stetzler, PhD candidate, UiT The Arctic University of Norway',
+            location: {
+                center: { lon: -0.46579, lat: 79.42825 },
+                zoom: 4.5,
+                pitch: 24.00,
+                bearing: 0.01
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            {
+                layer: 'greenland',
+                opacity: 1
+              }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'story31',
+            alignment: 'right',
+            hidden: false,
+            title: 'Saturday, Oct 23: Some of your finest bottle, please.',
+            image: './images/Marie.jpg',
+            description: 'This expedition started two years ago after the first HACON cruise in 2019. We recognized what we could do on the Aurora Vent site, but technical challenges resulted in unfulfilled sampling needs. What followed were two years of great uncertainty and numerous challenges. Yet here we are, a team bonded by that experience and with great mutual support. A group of intelligent, skilled, passionate and motivated people worked together to achieve something nobody had done before.<br><br>When we sailed out on 30th September, everyone was well aware of the challenges that lay ahead. Accessing and sampling an area the size of a few ping pong tables in the vastness of the Arctic Ocean at 4000 m water depth under the ice is no small feat. The ethereal beauty of the ice in the Arctic Ocean is breathtaking, yet it influenced and dictated our every move on an hourly basis. Getting the vessel back in a good position required patience and persistence. The officers on the bridge were tirelessly working the ice. Their endurance and perseverance cannot be understated.<br><br>It took great patience, understanding and flexibility from a team of ROV pilots who were of utmost crucial to the success of this expedition. Adept and skilful in collecting samples at the bottom of the Arctic Ocean, they also were calm as the sea ice, in which they were locked in. It appeared like our results were never in doubt.<br><br>Every member on board this expedition is excellent on their own; together, they are exceptional. It was truly an honor to lead a team of individuals greater than the sum of their parts and work well together to accomplish something remarkable.<br><br>This voyage is a historic achievement that will last in our memory forever, especially for the outstanding teamwork and fantastic atmosphere. Collaborations and friendships are ongoing or just beginning, and we’ve learned a lot about ourselves and others while on this journey. Looking at the wonderful photos from our expedition will always put a smile on our faces.<br><br>Stefan Bünz, Chief Scientist
+',
             location: {
                 center: { lon: -0.46579, lat: 79.42825 },
                 zoom: 4.5,
