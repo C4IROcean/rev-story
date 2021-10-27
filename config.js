@@ -295,7 +295,7 @@ var config = {
             hidden: false,
             title: 'Saturday, Oct 2: We Reach the Ice',
             image: './images/greenland-border.jpg',
-            description: 'The team wakes up for 07:30 breakfast and can see the ship is heading further North on the onboard tv screens. We are already 150 nautical miles from the Molloy Deep. Around 10:55 we cross over into Greenland territorial waters. The depth markers on the bathymetry charts start to become less detailed, suggesting the ocean is less surveyed in the area we´re headed. We arrive around 13:15 as the first very large ice flows start to drift into view. A perimeter of 2 nautical miles is the last visible open water.',
+            description: 'The team wakes up for 07:30 breakfast and sees the ship heading further North on the navigation screens throughout the ship. We are already 150 nautical miles from Molloy Deep. Around 10:55, we cross Greenland waters. The depth markers on the charts become less detailed, suggesting the ocean is less surveyed in the area we´re headed. We arrive around 13:15 as the first substantial ice flows start to drift into view. A perimeter of 2 nautical miles is the last visible open water.',
             location: {
                 center: { lon: 3.63119, lat: 81.44665 },
                 zoom: 5,
@@ -319,7 +319,7 @@ var config = {
             hidden: false,
             title: 'Diving Below the Ice',
             image: './images/reaching_ice.jpg',
-            description: 'At 15:00 the ROV Team prepares Aurora and Borealis to make the second deep dive on the edge of the ice. The ROV hits the seabed at 1700 meters at 16:00 and takes its first sample at 16:12. They team brings the rig back on deck by 17:30 and in a short two hours the ice has drifted almost completely all around us.',
+            description: 'At 15:00, the ROV Team prepares Aurora and Borealis to make the second deep dive on the ice edge. The ROV hits the seabed at 1700 meters at 16:00 and takes its first sample at 16:12. The team brings the rig back on deck by 17:30, and the ice has drifted to us in a short two hours.',
             location: {
                 center: { lon: 3.63119, lat: 81.44665 },
                 zoom: 5,
@@ -347,7 +347,7 @@ var config = {
             hidden: false,
             title: 'Listening to the Ice',
             image: './images/oct2arrival.jpg',
-            description: 'During our daily 18:30 science briefing we can hear the increasingly loud scraping and crunching sounds of bigger and bigger chunks of ice throughout the auditorium and lower decks. Our curiosity to see the expanse of frozen water draws people up to the observation lounge on deck 9 or outside and onto the front helicopter pad on deck 6.<br><br>Cruise co-lead, Eva Ramirez-Llorda, starts our nightly seminars with an introduction to the HACON Project for the team on board and the crew.<br><br>We are now 96 nautical miles to the Aurora vent field.',
+            description: 'During our daily 18:30 science briefing, we hear the first ice contact throughout the auditorium and lower decks. Our curiosity to see the expanse of frozen water draws people up to the observation lounge on deck nine or outside and onto the front helicopter pad on deck six.<br><br>Cruise co-lead, Eva Ramirez-Llorda, starts our nightly seminars introducing the HACON Project for the team on board and the RV Kronprins Haakon crew.<br><br>We are now 96 nautical miles to the Aurora vent field.',
             location: {
                 center: { lon: 3.63119, lat: 81.84665 },
                 zoom: 5,
@@ -366,7 +366,7 @@ var config = {
             hidden: false,
             title: 'Sunday, Oct 3: Navigating Through Ice',
             image: './images/ice_nav.jpg',
-            description: 'Waking up 76 nautical miles to Aurora.<br><br>At times the ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, which is half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.',
+            description: 'Waking up 76 nautical miles to Aurora.<br><br>The ice is extremely thick and noticeably slows down our ship to less than 1 nautical mile per hour. Our average top speed drops to 5 nautical miles, half of our normal open water velocity. The increasing decibels correlate with our speed against ice, causing deafening crashing sounds resounding throughout the ship. Those staying in the lower deck cabins start to feel the impact of less and less sleep from the constant ice crushing against the hull overnight. A handful of scientists from the 2019 cruise lay awake with excitement, knowing that we are carving our path towards Aurora while the first ice cruise participants brace for loud impacts after each ice floe hits the vessel.<br><br>For every nautical mile closer to Aurora, we seem to go twice as far but the captains are patient.',
             location: {
                 center: { lon: -2.058, lat: 82.60040 },
                 zoom: 5,
@@ -390,7 +390,7 @@ var config = {
             hidden: false,
             title: '',
             image: './images/deck_exercise.jpg',
-            description: 'Approaching a week onboard we find new ways to stay active on the 100m ship. An athletic scientist initiates a stair climbing challenge, cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
+            description: 'Approaching a week on board, we find new ways to stay active on the 100m ship. An athletic scientist initiates a stair climbing challenge called cake&#8211;to&#8211;cake. We anchor 24 hours with a daily cake break at 15:00 and start tallying how many times between cakes we climb from deck 3 to deck 9, approximately 17meters.<br><br>We head to bed with around 34 nautical miles to the Aurora Vent Field.',
             location: {
                 center: { lon: -2.058, lat: 82.60040 },
                 zoom: 5,
@@ -418,7 +418,7 @@ var config = {
             hidden: false,
             title: 'Monday, Oct 4: First Polar Bear Sighting',
             image: './images/bear_close.jpg',
-            description: 'We managed to travel about 10 nautical miles closer to the Aurora vents overnight. At breakfast only 24 nautical miles remained.<br><br>It is becoming comically normal to ignore the aggressive sound of the one-meter-thick ice being scrapped against the side of the steel ship and crushed underneath 9000 tons. Normal seafarer instinct to such a thunderous bow banging would be to evacuate ship. These reactions have subdued as we casually eat breakfast with a destruction soundtrack in the background and shout through meetings and presentations competing with the ice breaker.<br><br>We had our first polar bear sighting this morning. Everyone gathered on the bridge, sharing binoculars to catch a glimpse of the arctic´s top predator, less than a kilometer away.<br><br>&#34;Polar bear on port side&#34; an announcement from the bridge came at 19:30 as the ship slowed to a stop. Everyone suited up to go outdoors in -16 C to get a closer look at a Polar bear and her cub. The pair came within meters of the ship and were extremely curious.',
+            description: 'We managed to travel about 10 nautical miles closer to the Aurora vents overnight. At breakfast, only 24 nautical miles remained.<br><br>It is becoming comically normal to ignore the aggressive sound of the one-meter-thick ice being scraped against the side of the steel ship and crushed underneath 9000 tons. Normal seafarer instinct to such a thunderous bow banging would be to evacuate the ship. These reactions have subdued as we casually eat breakfast with a destruction soundtrack in the background and shout through meetings and presentations competing with the ice breaker.<br><br>We had our first polar bear sighting this morning. Everyone gathered on the bridge, sharing binoculars to catch a glimpse of the arctic´s top predator, less than a kilometer away.<br><br>&#34;Polar bear on port side&#34; an announcement from the bridge came at 19:30 as the ship slowed to a stop. Everyone suited up to go outdoors in -16 C to get a closer look at a Polar bear and her cub. The pair came within meters of the ship and were extremely curious.',
             location: {
                 center: { lon: -5.62794, lat: 82.72023 },
                 zoom: 6,
@@ -446,7 +446,7 @@ var config = {
             hidden: false,
             title: 'The Aurora Vent Field',
             image: './images/aurora3D.jpg',
-            description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north and drift south on the ice (ice floe speed currently around 0.3 knots). The ROV will deploy to the seabed going ahead of the ship in search for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
+            description: 'We reach Aurora and search for an open pool in the thick ice that we can deploy the ROV from. The plan is to go north and drift south on the ice (ice floe speed currently around 0.3 knots). The ROV will deploy to the seabed going ahead of the ship searching for the Aurora Vent Field. The ship will drift south to catch up, then surpass the ROV. Before long the ROV must start catching up with the ship and rise to the surface. We are hoping to play this ice drift game multiple times to collect the samples the scientists need.',
             location: {
                 center: { lon: -5.62794, lat: 82.72023 },
                 zoom: 6,
@@ -474,7 +474,7 @@ var config = {
             hidden: false,
             title: 'Tuesday, Oct 5: The first ROV dive under ice in the Arctic',
             image: './images/ROV_Oct5.jpg',
-            description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later we reach the Aurora Vents and get our first looks at the gorgeous black chimney. We manage to take a small sample of chimney before we must ascend around 9:12.',
+            description: 'After two false wake-up calls at 2:30 and 4:00, the ROV gets the green light to deploy at 06:47 and lands on the seabed 3844 meters at 8:28. Twenty minutes later, we reach the Aurora Vents and get our first look at the black chimney. We manage to take a small sample of the chimney before we must ascend around 9:12.',
             location: {
                 center: { lon: -6.693, lat: 82.92023 },
                 zoom: 6.5,
@@ -502,7 +502,7 @@ var config = {
             hidden: false,
             title: '',
             image: './images/Biology_Sampling_1.jpg',
-            description: 'Chemists get the first samples, rushing them to the freezer. Next come the biologists searching for microscopic fauna. Lastly the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
+            description: 'Chemists get the first samples, rushing them to the freezer. Next, come the biologists searching for microscopic fauna. Lastly, the geologists take what is left of the rock to their lab to dry it for later processing and analysis on shore. Everyone is very considerate with their equipment, careful that their inspection does not compromise the next scientists down the line.',
             location: {
                 center: { lon: -6.693, lat: 82.92023 },
                 zoom: 6.5,
@@ -526,7 +526,7 @@ var config = {
             hidden: false,
             title: '',
             image: './images/Carving_Ice.jpg',
-            description: 'Diving to depths of nearly 4km in -1C is challenging and the oil from the ROV has been having a difficult time with the cold temperature, making the hydraulics slower. Outside of the Arctic deep sea water temperatures range from 2-4C, highlighting the risk involved with this particular deep sea expedition. The ROV team is quick to find a solution. The ship repositions North of the vent fields, and we prepare for our second dive of the day at 16:00.',
+            description: 'Diving to depths of nearly 4km in -1C is challenging, and the oil from the ROV has been having a difficult time with the cold temperature, making the hydraulics slower. Outside of the Arctic, deep sea water temperatures range from 2-4C, highlighting the risk involved with this particular deep sea expedition. The ROV team is quick to find a solution. The ship repositions North of the vent fields, and we prepare for our second dive of the day at 16:00.',
             location: {
                 center: { lon: -6.693, lat: 82.92023 },
                 zoom: 6.5,
@@ -690,7 +690,7 @@ var config = {
             hidden: false,
             title: 'Monday, Oct 11: Sampling under Pressure!',
             image: './images/Story18.jpg',
-            description: 'To imagine the crushing pressures at Aurora, a 4km high stack of water jugs sitting on your head comes to mind. Yet, at these extreme conditions, hot, high pressure liquid spewing from the seafloor is a veritable oasis for microbial life and a hotspot of seafloor mineral formation. Sampling the &#39;black smoker&#39; fluids venting here is therefore critical for us to make key predictions of the types of mineral deposits forming at the site, and the very nature of the chemical fuels feeding the ecosystem present here.<br><br>To understand exactly what life thrives on at Aurora and the types of mineral deposits, we first need to understand how these fluids are formed i.e. their chemical make-up. We use specialised samplers called &#39;IGTs&#39; (Isobaric Gas Tight samplers) to collect fluids (and measure their temperatures) directly from inside the hot chimney structures. These titanium devices preserve the fluid samples at 400 atmospheres (seafloor pressure), without any loss of gases &#8211; many of which are fuels for life. Fully characterizing the chemistry of the fluids onboard involves analysing different compounds in these fluids, and preserving samples for back on land. Much like forensic scientists, we seek to understand the fluid’s history before it vented, and what the &#39;flavour&#39; of this fluid is. We do this by measuring various gas, element, and compound concentrations in the small samples we take, giving us a better understanding and helping to explain why life can thrive in this desolate crushing environment.<br><br>Samuel Pereira, PhD Candidate and Eoghan Reeves, Associate Professor, Aqueous Geochemistry, Department of Earth Science, University of Bergen',
+            description: 'To imagine the crushing pressures at Aurora, a 4km high stack of water jugs sitting on your head comes to mind. Yet, at these extreme conditions, hot, high pressure liquid spewing from the seafloor is a veritable oasis for microbial life and a hotspot of seafloor mineral formation. Sampling the &#39;black smoker&#39; fluids venting here is therefore critical for us to make key predictions of the types of mineral deposits forming at the site, and the very nature of the chemical fuels feeding the ecosystem present here.<br><br>To understand exactly what life thrives on at Aurora and the types of mineral deposits, we first need to understand how these fluids are formed i.e. their chemical make-up. We use specialised samplers called &#39;IGTs&#39; (Isobaric Gas Tight samplers) to collect fluids (and measure their temperatures) directly from inside the hot chimney structures. These titanium devices preserve the fluid samples at 400 atmospheres (seafloor pressure), without any loss of gases &#8211; many of which are fuels for life. Fully characterizing the chemistry of the fluids on board involves analysing different compounds in these fluids, and preserving samples for back on land. Much like forensic scientists, we seek to understand the fluid’s history before it vented, and what the &#39;flavour&#39; of this fluid is. We do this by measuring various gas, element, and compound concentrations in the small samples we take, giving us a better understanding and helping to explain why life can thrive in this desolate crushing environment.<br><br>Samuel Pereira, PhD Candidate and Eoghan Reeves, Associate Professor, Aqueous Geochemistry, Department of Earth Science, University of Bergen',
             location: {
                 center: { lon: -6.693, lat: 82.92023 },
                 zoom: 6.5,
