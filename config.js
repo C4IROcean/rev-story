@@ -7,7 +7,7 @@ var config = {
     use3dTerrain: true,
     title: 'HACON',
     subtitle: 'Hot Vents in an Ice-Covered Ocean',
-    byline: 'led by UiT (CAGE) and NIVA',
+    byline: 'led by CAGE and NIVA',
     footer: 'Thank you to Marena Brinkhurst of the Mapbox Community Team for helping us build and update this story as the expedition continues.',
     chapters: [
         {
@@ -53,7 +53,7 @@ var config = {
             hidden: false,
             title: 'Who is going?',
             image: './images/teamondeck2.jpg',
-            description: 'B&#252;nz and Ramirez-Llodra are leading a <a href="https://haconfrinatek.com/hacon2021/" target="_blank">team</a> of 17 scientists 82.5 degrees north to the Arctic in search for the Aurora Hydrothermal Vents. The team of scientists represent 13 different nationalities: German, Italian, French, Norwegian, New Zealand, Irish, Portuguese, American, Finnish, British, Canadian, Spanish, and Indian.',
+            description: 'B&#252;nz and Ramirez-Llodra lead a <a href="https://haconfrinatek.com/hacon2021/" target="_blank">team</a> of 17 scientists 82.5 degrees north to the Arctic in search of the Aurora Hydrothermal Vents. The scientists represent 13 different nationalities: German, Italian, French, Norwegian, New Zealand, Irish, Portuguese, American, Finnish, British, Canadian, Spanish, and Indian.',
             location: {
                 center: { lon: -5.18003, lat: 80.72944 },
                 zoom: 3.53,
@@ -90,7 +90,7 @@ var config = {
             hidden: false,
             title: 'Friday, Sept 24: Meet the ROV Team',
             image: './images/story_3.jpg',
-            description: 'The team arrived on Friday, September 24th to start preparing the Remotely Operated Vehicle (ROV) and Tethered Management System (TMS) for its first expedition. Oil checks, cables connected, science skid and 4K camera installed.<br><br>(Image, from left) Patrick V&#229;genes, J&#246;rn Patrick from Havforskningsinstituttet, Stig V&#229;genes from University of Bergen, Leighton Rolley from REV Ocean.',
+            description: 'On Friday, September 24th, the team arrived to start preparing the Remotely Operated Vehicle (ROV) and Tethered Management System (TMS) for its first expedition. Oil checks, cables connected, science skid and 4K camera installed.<br><br>(Image, from left) Patrick V&#229;genes, J&#246;rn Patrick from Havforskningsinstituttet, Stig V&#229;genes from University of Bergen, Leighton Rolley from REV Ocean.',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
                 zoom: 6.65,
@@ -127,7 +127,7 @@ var config = {
             hidden: false,
             title: 'Monday, Sept 27: Sea Ice and Polar Bear Safety ',
             image: '',
-            description: 'The team met in the early Monday morning at the University Center of Svalbard (UNIS) to learn safety culture onboard RV Kronprins Haakon. Rupert Krapp, our instructor from the Norwegian Polar Institute has participated in over 20 the Arctic and Antarctic research cruises over the past twenty years. Amazing to find out from him that sea ice can potentially be safe to walk on at a mere 10cm thickness, but you would need at least 30cm for snowmobiles or heavier equipment.<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/R_2aTibd328" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: 'The team met early Monday morning at the University Center of Svalbard (UNIS) to learn safety culture on board RV Kronprins Haakon. Rupert Krapp, our instructor from the Norwegian Polar Institute, has participated in over 20 Arctic and Antarctic research cruises over the past twenty years. We learn that sea ice can be safe to walk on at a mere 10cm thickness, but 30cm is required for snowmobiles or heavier equipment.<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/R_2aTibd328" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
                 zoom: 6.65,
@@ -161,9 +161,9 @@ var config = {
             id: 'story5',
             alignment: 'left',
             hidden: false,
-            title: 'Tuesday, Sept 28: Onboarding and Mobilization',
+            title: 'Tuesday, Sept 28: Mobilization',
             image: './images/ROVonland.jpg',
-            description: 'Everyone starts to check-in and unpack their gear onboard Kronprins Haakon. We finally installed the new ROV. The main rig weighs 4,500 kilograms and carries an additional 6km of cables (adding 18,000 kilograms).<br><br><a href="https://www.instagram.com/p/CUaBlTXKWVC/" target="_blank">Watch video on our Instagram.</a>',
+            description: 'Everyone starts to check in and unpack their gear on board Kronprins Haakon. We finally installed the new ROV. The main rig weighs 4,500 kilograms and carries an additional 6km of cables (adding 18,000 kilograms).<br><br><a href="https://www.instagram.com/p/CUaBlTXKWVC/" target="_blank">Watch video on our Instagram.</a>',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
                 zoom: 6.65,
@@ -199,7 +199,7 @@ var config = {
             hidden: false,
             title: 'Wednesday, Sept 29: Meet Aurora and Borealis',
             image: './images/baptism_photo.jpg',
-            description: 'After one year of intense production work from Kystdesign and the REV Ocean operations team, the ROV is connected onboard and springs to life. There was tremendous excitement amongst the scientists, who all showed up with cameras and phones for the ROV naming ceremony. Using an ROV can be a once in a lifetime opportunity for many researchers at sea. The ROV Titan arm delicately picked up a bottle of Svalbard Prosecco and elegantly sliced the cork into the air with cheers and whistling all around!<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/JJA9z0ghsBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>The REV Ocean ROV has appropriately been named Aurora, and the corresponding TMS Borealis. Next up is a shallow water test to make sure all the basic systems are working properly.<br><br>19:30 We start with two shallow dives at a couple of hundred meters depth in Isfjorden, off the coast of Svalbard, finishing around 21:38. A few technical calibrations to work through the following day still keeps us close to Longyearbyen.',
+            description: 'After one year of intense production work from Kystdesign and the REV Ocean operations team, the ROV is connected on board. Using an ROV can be a once in a lifetime opportunity for many researchers at sea. Hence the scientists showed up with cameras and phones for the ROV naming ceremony, where the massive 4500kg robot delicately picked up a bottle of Svalbard Prosecco and sliced the cork into the air.<br><br><iframe width="100%" height="315" src="https://www.youtube.com/embed/JJA9z0ghsBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>The REV Ocean ROV has appropriately been named Aurora and the corresponding TMS Borealis. Next up is a shallow water test to make sure all the basic systems are working correctly.<br><br> 19:30 We start with two shallow dives at a couple of hundred meters depth in Isfjorden, off the coast of Svalbard, finishing around 21:38. A few technical calibrations to work through the following day still keep us close to Longyearbyen.',
             location: {
                 center: { lon: 13.47772, lat: 78.32703 },
                 zoom: 6.65,
@@ -235,7 +235,7 @@ var config = {
             hidden: false,
             title: 'Thursday, Sept 30: Setting Sail towards Molloy Deep',
             image: './images/Molloy3D.JPG',
-            description: '&#34;Aurora will descend into the Moll&#248;y Deep and be diving at approximately 3500 meters,&#34; Stefan B&#252;nz, cruise lead, informs the team the night before the test dive in Isfjorden.',
+            description: '&#34;Aurora will descend into Molloy Deep and be diving at approximately 3500 meters,&#34; Stefan B&#252;nz, cruise lead, informs the team the night before the test dive in Isfjorden.',
             location: {
                 center: { lon: 3.14897, lat: 79.23795 },
                 zoom: 4.38,
@@ -263,7 +263,7 @@ var config = {
             hidden: false,
             title: 'Friday, Oct 1: Aurora and Borealis take their first Deep Dive',
             image: './images/octopus.png',
-            description: 'We reached our destination at 07:30, a few hours earlier than expected. The CTD was deployed first, taking our first samples for the cruise.<br><br>Around 11:22 the ROV started its first deep dive, the HACON team takes bets on the expected depth for touchdown ranging from 3507 to 3690. At 13:50 it hits the seabed, and the ROV team start calibrating the umbilical by unravelling the full 800 meters of TMS supporting cable. During this momentous dive, it exceeded all expectations reaching more than 3800 meters.<br><br>The highlight of the dive was seeing a cirrate octopus!',
+            description: 'We reached our destination at 07:30, a few hours earlier than expected. The CTD (a conductivity, temperature, depth instrument) was deployed first to calibrate acoustic systems on board and take our first samples for the cruise.<br><br>Around 11:22, the ROV started its first deep dive; the HACON team takes bets on the expected depth for touchdown ranging from 3507 to 3690 meters. At 13:50, it hits the seabed, and the ROV team start calibrating the umbilical by unravelling the total 800 meters of TMS supporting cable. During this momentous dive, it exceeded the bets taken, reaching more than 3800 meters.<br><br>The highlight of the dive: a cirrate octopus',
             location: {
                 center: { lon: 2.72746, lat: 79.63265 },
                 zoom: 5.35,
