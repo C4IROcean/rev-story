@@ -14,7 +14,7 @@ var config = {
             id: 'story1',
             alignment: 'left',
             hidden: false,
-            title: 'What is the cruise?',
+            title: 'Why are we going to the Arctic?',
             image: '',
             description: 'Stefan B&#252;nz from the Centre for Arctic Gas Hydrate, Environment and Climate (UiT The Arctic University of Norway) and Eva Ramirez-Llodra, from the Norwegian Institute for Water Research, last visited the Aurora Hydrothermal Vents in 2019.<br><br>These vents were discovered in 2014 during the German AURORA cruise led by Prof Antje Boetius (AWI) on board Polarstern and were visited for a second time during the HACON19 cruise (see the 2019 cruise <a href="https://haconfrinatek.com/blog/" target="_blank">blog</a> and <a href="https://haconfrinatek.com/2020/01/20/hacon-cruise-report/" target="_blank">report</a>). However, until today, no ROV has been able to dive successfully to the vent field, at 4000 m depth under permanent ice cover.',
             location: {
